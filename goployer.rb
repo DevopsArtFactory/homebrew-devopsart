@@ -5,10 +5,9 @@ class Goployer < Formula
   desc "AWS Deployer with Go"
   homepage "https://goployer.dev"
   url "https://github.com/DevopsArtFactory/goployer.git",
-      tag:      "2.0.2",
-      revision: "4b01fad8d5b83a4f0afd06a3f2d701743d46fbcb"
+      tag:      "2.0.2"
   license "Apache-2.0"
-  head "https://github.com/DevopsArtFactory/goployer.git"
+  head "https://github.com/DevopsArtFactory/goployer.git", revision => "4b01fad8d5b83a4f0afd06a3f2d701743d46fbcb"
 
   depends_on "go" => :build
 
