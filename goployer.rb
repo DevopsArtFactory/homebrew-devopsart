@@ -4,12 +4,16 @@
 class Goployer < Formula
   desc "AWS Deployer with Go"
   homepage "https://goployer.dev"
-    url "https://github.com/DevopsArtFactory/goployer/releases/download/2.0.1/goployer-darwin-amd64"
-  sha256 "01c794e77f25130352cb8b5fb39bf4b0782f23612fd5eea2847ac97b785203ff"
+  url "https://github.com/DevopsArtFactory/goployer.git",
+      tag:      "v2.0.2",
+      revision: "326b4e5a69a6bf446e913306b95709601946344a"
   license "Apache-2.0"
+  head "https://github.com/DevopsArtFactory/goployer.git"
+
+  depends_on "go" => :build
 
   def install
-    bin.install "goployer-darwin-amd64"
-    mv bin/"goployer-darwin-amd64", bin/"goployer"
+    system "make"
+    bin.install "out/goployer"
   end
 end
