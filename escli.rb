@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class Redhawk < Formula
+class Escli < Formula
   desc "Open source elasticsearch CLI"
   homepage ""
   url "https://github.com/DevopsArtFactory/escli/releases/download/0.0.1/escli"
