@@ -4,8 +4,8 @@
 class Escli < Formula
   desc "Open source elasticsearch CLI"
   homepage ""
-  url "https://github.com/DevopsArtFactory/escli/releases/download/0.0.1/escli"
-  sha256 "2d1f9e291516ff749d0cd8d755b9b836d25144b1fa0f874bd0904498321fb767"
+  url "https://github.com/DevopsArtFactory/escli/releases/download/0.0.2/escli"
+  sha256 "1ec972ac6153f789d2fbcb6b8f3f533965e51efd32a9bdec244586d13393ed96"
   license "Apache-2.0"
 
   # depends_on "cmake" => :build
