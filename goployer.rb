@@ -4,8 +4,8 @@
 class Goployer < Formula
   desc "AWS Deployer with Go"
   homepage "https://goployer.dev"
-  url "https://github.com/DevopsArtFactory/goployer/releases/download/2.0.6/goployer"
-  sha256 "adeef5dc141b6371e70a6e97b8de2a5e24e011e6717c4c2488ab51d3293db234"
+  url "https://github.com/DevopsArtFactory/goployer/releases/download/2.0.7/goployer"
+  sha256 "c99e0b7a2d56a037a1eb6254a14ab7ed90e0d469c1a920de18dc0b62806f2edd"
   license "Apache-2.0"
 
   def install
