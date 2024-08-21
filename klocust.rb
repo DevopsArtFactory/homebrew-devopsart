@@ -4,8 +4,8 @@
 class Klocust < Formula
   desc "A command-line tool for managing Locust distributed load testing on Kubernetes."
   homepage ""
-  url "https://github.com/DevopsArtFactory/klocust/releases/download/v0.0.1/klocust"
-  sha256 "bc2ae9e9faaabe939379ec33fd87e7a2668c14c758b44c80f4a535a9e918c25c"
+  url "https://github.com/DevopsArtFactory/klocust/releases/download/v0.0.2/klocust"
+  sha256 "1bd56cc85e8b8a41618b268fef9faa23c43840bc6e7d64353d41aa3bb55f81b9"
   license "Apache-2.0"
 
   def install
